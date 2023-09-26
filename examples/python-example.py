@@ -28,7 +28,7 @@ query {
 
 # Call the Vividly API.
 response = requests.post(
-    "https://pr-2004.vividly.dev/public/graphql/",
+    "https://portal.govividly.com/public/graphql/",
     json={"query": GRAPHQL_QUERY},
     headers={
         "Authorization": f"Token {VIVIDLY_API_TOKEN}",
